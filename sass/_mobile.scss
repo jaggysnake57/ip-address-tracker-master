@@ -1,0 +1,23 @@
+@import '_vars';
+@media screen and (max-width: 550px) {
+	.searchBar {
+		width: 90%;
+	}
+	.locationDetails {
+		display: block;
+		padding: 20px 0;
+
+		.detailsCardOuter {
+			width: 100%;
+			.detailsCardInner {
+				border: none;
+				margin: 0;
+				padding: 10px;
+
+				h2 {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}
